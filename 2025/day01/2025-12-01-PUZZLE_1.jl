@@ -98,8 +98,5 @@ function main(filepath, current_number, sequence_of_positions, number_of_zeros)
 end
 
 
-# nr_of_zeros = main(SEQUENCE_OF_ROTATIONS, current_number, sequence_of_positions, number_of_zeros)
-# Solve actual puzzle
-
-        
+# Solve actual puzzle       
 nr_of_zeros, sequence_of_positions = main("puzzle_1_input.txt", current_number, sequence_of_positions, nr_of_zeros)
